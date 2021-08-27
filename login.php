@@ -10,11 +10,12 @@
         .container{
             margin: auto auto;
             text-align: center;
-            background: whitesmoke;
+            background: white;
             line-height: 3.5rem;
             height: 350px;
             width: 20%;
-            box-shadow:#3333 2px 2px 1px;
+            border-radius: 10px;
+            box-shadow:0 10px 20px rgb(0, 0, 0.2);
         }
         form{
             margin-top: 2rem;
@@ -22,10 +23,10 @@
         }
         input{
             width: 65%;
-            border: none;
-            border-radius: 5px;
+            border-top: none;
             padding:7px ;
-            box-shadow: #3333 1.5px 1.5px 1px;
+            border-left: none;
+            border-right: none;
             font-weight: bold;
             
             

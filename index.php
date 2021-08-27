@@ -26,12 +26,12 @@ if(isset($_POST['submit']))
         .container{
             margin: auto auto;
             text-align: center;
-            background: rgb(236, 235, 235);
+            background: #fff;
             line-height: 3rem;
             height: 470px;
+            border-radius: 20px;
             width: 25%;
-            z-index:2;
-            box-shadow:#3333 3px 3px 3px;
+            box-shadow:0 20px 40px rgb(0, 0, 0.2);
         }
         form{
             margin-top: 2rem;
@@ -39,13 +39,20 @@ if(isset($_POST['submit']))
         }
         input{
             width: 70%;
-             border: none;
-            border-radius: 5px;
+             /* border: none; */
+             border-top: none;
+             border-left: none;
+             border-right: none;
+             border-bottom: 1px bold ;
+            /* border-radius: 5px; */
             font-weight: bold;
             line-height: 1.8rem;
-            box-shadow: #3333 1.5px 1.5px 1px;
+            /* box-shadow: 2px 1px 2px px #3333 */
             
             
+        }
+        input::after{
+            border: none;
         }
         .btn{
             margin-top: 2rem;
@@ -54,6 +61,7 @@ if(isset($_POST['submit']))
             line-height: 2rem;
             background: rgb(42, 170, 3);
             color: #fff;
+            box-shadow: o 4px 4px rgb(0, 0, 0.2);
             font-weight: bolder;
             
         }
